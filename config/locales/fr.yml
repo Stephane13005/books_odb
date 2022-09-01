@@ -1,0 +1,18 @@
+---
+fr:
+  books:
+    edit:
+      title: Éditer un livre
+    index:
+      book_author: Auteur
+      book_title: Titre
+      delete_book: Supprimer
+      edit_book: Modifier
+      new_book: "+ Ajouter un livre"
+      show_book: Voir
+      title: Tous les livres
+    new:
+      title: Ajouter un livre
+  home:
+    index:
+      welcome: Pas beaucoup de livres pour l'instant !
