@@ -22,6 +22,6 @@
   <% end %>
 </table>
 
-<%= paginate @books %>
+<%= paginate @books, remote: true %>
 
 <%= link_to t("books.index.new_book"), new_book_path(@book) %>
