@@ -1,12 +1,5 @@
 ---
 fr:
-  views:
-    pagination:
-      first: "&laquo; Première"
-      last: "Dernière &raquo;"
-      previous: "&lsaquo; Précédente"
-      next: "Prochaine &rsaquo;"
-      truncate: "&hellip;"
   books:
     created: Livre crée
     destroyed: Livre détruit
@@ -14,6 +7,7 @@ fr:
       title: Éditer un livre
     index:
       book_author: Auteur
+      book_summary: Résumé
       book_title: Titre
       delete_book: Supprimer
       edit_book: Modifier
@@ -23,6 +17,16 @@ fr:
     new:
       title: Ajouter un livre
     updated: Livre mis à jour
+  helpers:
+    books:
+      written_by: écrit par %{editor_name}
   home:
     index:
       welcome: Pas beaucoup de livres pour l'instant !
+  views:
+    pagination:
+      first: "&laquo; Première"
+      last: Dernière &raquo;
+      next: Prochaine &rsaquo;
+      previous: "&lsaquo; Précédente"
+      truncate: "&hellip;"
