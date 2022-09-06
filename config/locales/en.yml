@@ -1,6 +1,15 @@
 ---
 en:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
   books:
+    created: Book Created
+    destroyed: Book Destroyed
     edit:
       title: Edit a book
     index:
@@ -13,6 +22,7 @@ en:
       title: All the books
     new:
       title: Create a book
+    updated: Book Updated
   home:
     index:
       welcome: Not much book for now !

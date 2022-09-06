@@ -51,6 +51,9 @@ gem "bootsnap", require: false
 # Manage localizations
 gem 'i18n-tasks', '~> 1.0.11'
 
+# Pagination
+gem 'kaminari'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]

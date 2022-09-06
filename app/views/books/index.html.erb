@@ -19,4 +19,7 @@
     </tr>
   <% end %>
 </table>
+
+<%= paginate @books %>
+
 <%= link_to t("books.index.new_book"), new_book_path(@book) %>

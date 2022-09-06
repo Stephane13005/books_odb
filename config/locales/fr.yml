@@ -1,6 +1,15 @@
 ---
 fr:
+  views:
+    pagination:
+      first: "&laquo; Première"
+      last: "Dernière &raquo;"
+      previous: "&lsaquo; Précédente"
+      next: "Prochaine &rsaquo;"
+      truncate: "&hellip;"
   books:
+    created: Livre crée
+    destroyed: Livre détruit
     edit:
       title: Éditer un livre
     index:
@@ -13,6 +22,7 @@ fr:
       title: Tous les livres
     new:
       title: Ajouter un livre
+    updated: Livre mis à jour
   home:
     index:
       welcome: Pas beaucoup de livres pour l'instant !
