@@ -54,9 +54,13 @@ gem 'i18n-tasks', '~> 1.0.11'
 # Pagination
 gem 'kaminari'
 
+# Bootstrap
 gem 'bootstrap', '~> 5.2.0'
 
 gem 'jquery-rails'
+
+# Async jobs
+gem 'sidekiq'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
