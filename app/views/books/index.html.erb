@@ -15,9 +15,9 @@
       <td><%= book.title %></td>
       <td><%= book.author %></td>
       <td><%= summary(book) %></td>
-      <td><%= link_to t("books.index.show_book"), book_path(book) %></td>
-      <td><%= link_to t("books.index.edit_book"), edit_book_path(book) %></td>
-      <td><%= link_to t("books.index.delete_book"), book_path(book), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></td>
+      <td><%= link_to t("books.index.show_book"), book_path(book.slug) %></td>
+      <td><%= link_to t("books.index.edit_book"), edit_book_path(book.slug) %></td>
+      <td><%= link_to t("books.index.delete_book"), book_path(book.slug), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></td>
     </tr>
   <% end %>
 </table>
